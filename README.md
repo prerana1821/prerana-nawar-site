@@ -1,1 +1,1 @@
-This tis Prerana Nawar's Portfolio Website.
+This is Prerana Nawar's Portfolio Website.
