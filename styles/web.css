@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    max-width: 90%;
+    margin: auto;
+}
+
+
+/* * header  */
+
+.model img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: contain; */
+}
+
+.model {
+    width: 600px;
+    height: 500px;
+}
+
+.hero-content {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-text {
+    width: 500px;
+}
+
+.main-text h1 {
+    font-size: 4rem;
+    color: #1c3548;
+    margin: 0px 0px 10px 0px;
+    line-height: 60px;
+}
+
+.main-text p {
+    color: #747474;
+    font-size: 1.9rem;
+}
+
+.about-me {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 120%;
+    transform: translate(-50%, -50%);
+}
+
+.about-me-text {
+    width: 500px;
+}
+
+.about-me-text p {
+    font-size: 1.1rem;
+    color: #1c3548;
+    margin: 0rem 0rem 0.625rem 0rem;
+}
+
+.about-me-text h1 {
+    font-size: 2rem;
+    color: #1c3548;
+    margin: 0rem 0rem 0.625rem 0rem;
+}
+
+.about-me li {
+    line-height: 1.5rem;
+}
+
+.projects {
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 160%;
+    transform: translate(-50%, -50%);
+    /* margin: auto; */
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.projects h2 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.projects a {
+    position: absolute;
+    left: 50%;
+    top: 170%;
+    transform: translate(-50%, -50%);
+}
+
+.blogs {
+    position: absolute;
+    /* left: 50%; */
+    top: 190%;
+    /* transform: translate(-50%, -50%); */
+    padding: 4rem;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    border-radius: 1rem;
+}
+
+.blogs h2 {
+    margin-bottom: 1rem;
+}
+
+.blogs p {
+    margin-bottom: 1.5rem;
+}
+
+footer {
+    position: absolute;
+    /* left: 50%; */
+    top: 230%;
+    /* transform: translate(-50%, -50%); */
+    max-width: 90%;
+    padding: 2.3rem;
+    text-align: center;
+    width: 100%;
+    height: 10rem;
+    margin: auto;
+    line-height: 2.5rem;
+}
+
+footer i {
+    color: white;
+    font-size: 30px;
+    margin: 1rem;
+}
+
+footer p {
+    color: #ffffff;
+}
