@@ -87,7 +87,9 @@ hr {
 
 .header-img {
     margin: auto;
-    max-width: 30rem;
+    width: 100%;
+    /* max-width: 30rem; */
+    max-width: 350px;
     display: block;
 }
 
@@ -95,6 +97,9 @@ hr {
     margin: auto;
     color: #9CA3AF;
     text-align: center;
+    /* margin: 0 auto;
+    max-width: 600px;
+    position: absolute; */
 }
 
 
