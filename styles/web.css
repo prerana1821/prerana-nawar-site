@@ -96,6 +96,10 @@ body {
     /* margin: 0rem 0rem 0.625rem 0rem; */
 }
 
+.about-me h3 {
+    margin-top: 1rem;
+}
+
 .about-me li {
     line-height: 1.5rem;
 }
@@ -326,23 +330,20 @@ code {
     }
     .about-me-text {
         padding: 0;
-        /* margin: auto; */
-        /* width: 100%; */
-        /* max-width: 350px; */
-        /* display: block; */
     }
     .about-me-text p {
         font-size: 1.1rem;
         color: #1c3548;
         line-height: 1.3rem;
-        /* margin: 0rem 0rem 0.625rem 0rem; */
     }
     .about-me-text h1 {
         font-size: 2rem;
         color: #1c3548;
-        /* margin: 0rem 0rem 0.625rem 0rem; */
     }
     .about-me li {
         line-height: 1.5rem;
+    }
+    .about-me h3 {
+        margin-top: 1rem;
     }
 }
