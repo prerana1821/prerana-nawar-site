@@ -18,39 +18,28 @@ body {
 }
 
 
-/* * header  */
-
-.model img {
-    width: 100%;
-    height: 100%;
-    /* object-fit: contain; */
-}
-
-.model {
-    width: 600px;
-    height: 500px;
-}
+/* * header */
 
 .hero-content {
-    width: 80%;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    margin: auto;
+    max-width: 90%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 .main-text {
-    width: 500px;
+    flex: 50%;
+    margin: 4rem 0;
+    padding: 3rem;
 }
 
 .main-text h1 {
     font-size: 4rem;
     color: #1c3548;
-    margin: 0px 0px 10px 0px;
+    /* margin: 0px 0px 10px 0px; */
     line-height: 60px;
+    text-align: left;
 }
 
 .main-text p {
@@ -58,93 +47,107 @@ body {
     font-size: 1.9rem;
 }
 
+.model {
+    flex: 50%;
+    margin: 4rem 0;
+}
+
+.model img {
+    width: 100%;
+    /* height: 100%; */
+    height: auto;
+    max-width: 700px;
+}
+
+
+/* 
+.model {
+    width: 700px;
+    height: 600px;
+} */
+
+
+/* * about-me */
+
 .about-me {
-    width: 80%;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: absolute;
-    left: 50%;
-    top: 120%;
-    transform: translate(-50%, -50%);
+    margin: auto;
+    max-width: 90%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 .about-me-text {
-    width: 500px;
+    flex: 50%;
+    margin: 4rem 0;
+    padding: 3rem;
 }
 
 .about-me-text p {
     font-size: 1.1rem;
     color: #1c3548;
-    margin: 0rem 0rem 0.625rem 0rem;
+    line-height: 1.3rem;
+    /* margin: 0rem 0rem 0.625rem 0rem; */
 }
 
 .about-me-text h1 {
     font-size: 2rem;
     color: #1c3548;
-    margin: 0rem 0rem 0.625rem 0rem;
+    /* margin: 0rem 0rem 0.625rem 0rem; */
 }
 
 .about-me li {
     line-height: 1.5rem;
 }
 
+
+/* * projects */
+
 .projects {
-    width: 80%;
-    position: absolute;
-    left: 50%;
-    top: 160%;
-    transform: translate(-50%, -50%);
-    /* margin: auto; */
+    margin: auto;
+    max-width: 90%;
     text-align: center;
-    line-height: 1.5rem;
+    margin-bottom: 6rem;
 }
 
 .projects h2 {
-    font-size: 1.7rem;
-    margin-bottom: 1rem;
+    margin: 1.5rem;
+}
+
+.projects p {
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .projects a {
-    position: absolute;
-    left: 50%;
-    top: 170%;
-    transform: translate(-50%, -50%);
+    margin-top: 1.5rem;
 }
 
+
+/* * blogs*/
+
 .blogs {
-    position: absolute;
-    /* left: 50%; */
-    top: 190%;
-    /* transform: translate(-50%, -50%); */
-    padding: 4rem;
-    text-align: center;
-    width: 90%;
     margin: auto;
-    border-radius: 1rem;
+    max-width: 90%;
+    text-align: center;
+    margin-bottom: 6rem;
 }
 
 .blogs h2 {
-    margin-bottom: 1rem;
+    margin: 1.5rem;
 }
 
 .blogs p {
-    margin-bottom: 1.5rem;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
 }
 
-footer {
-    position: absolute;
-    /* left: 50%; */
-    top: 230%;
-    /* transform: translate(-50%, -50%); */
-    max-width: 90%;
-    padding: 2.3rem;
-    text-align: center;
-    width: 100%;
-    height: 10rem;
-    margin: auto;
-    line-height: 2.5rem;
+.blogs a {
+    margin-top: 1.5rem;
 }
+
+
+/* * footer  */
 
 footer i {
     color: white;

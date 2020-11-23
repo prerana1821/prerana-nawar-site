@@ -5,7 +5,9 @@ body {
 
 :root {
     --primary-color: #F50057;
-    --button-text-color: #ffffff
+    --offwhite-color: #F3F4F6;
+    --button-text-color: #ffffff;
+    --header-text: #9CA3AF;
 }
 
 hr {
@@ -95,7 +97,7 @@ hr {
 
 .header {
     margin: auto;
-    color: #9CA3AF;
+    color: var(--header-text);
     text-align: center;
     /* margin: 0 auto;
     max-width: 600px;
@@ -114,7 +116,7 @@ hr {
 }
 
 .off-white {
-    background-color: #F3F4F6;
+    background-color: var(--offwhite-color);
     padding: 2rem 0;
 }
 
