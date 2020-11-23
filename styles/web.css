@@ -189,7 +189,7 @@
     }
     
     .projects-img-git {
-        max-width: 800px;
+        max-width: 700px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -235,4 +235,11 @@
         padding: 0.5rem 2rem;
         font-size: large;
         line-height: 1.5rem;
+    }
+    
+    code {
+        background-color: #eee;
+        border-radius: 3px;
+        padding: 0 3px;
+        /* display: inline; */
     }
