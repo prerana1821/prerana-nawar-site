@@ -14,7 +14,7 @@
 <body>
 
     <nav class="navbar">
-        <div>preCODES</div>
+        <div><a href="/index.html">preCODES</a></div>
         <ul class="list-unordered">
             <li><a class="links" href="/">home</a></li>
             <li><a class="links active" href="/projects.html">projects</a>
@@ -26,37 +26,45 @@
     <main>
 
         <header>
-            <h1>Git for Beginners</h1>
+            <h1 class="blog-heading">Git for Beginners</h1>
         </header>
 
         <div>
-            <img class="projects-img" src="/images/git.jpg" alt="Projects">
+            <img class="projects-img-git" src="/images/git.jpg" alt="Projects">
         </div>
 
-        <section>
-            If you guys quickly search on <strong>Google</strong> about <strong>Git</strong> it says that "Git is a distributed version-control system for tracking changes in source code during software development." <br>
+        <section class="blog">
+            <div class="quotes">
+                <p>If you guys quickly search on <strong>Google</strong> about <strong>Git</strong> it says that:</p>
+                <blockquote cite="https://www.google.com/search?q=git">
+                    <div>"Git is a distributed version-control system for tracking changes in source code during software development."</div>
+                </blockquote>
+            </div>
+
+            <br>
 
             <h2>So, What is a Version Control System?</h2>
             <p>First thing first, try reading "version control" as "control version". A Version Control System (VCS) or also called as Source Code Manager (SCM) is just software that helps you control (or manage) the different versions of something (typically
                 your Source Code).
-            </p> <br>
+            </p>
             <p>Git is an SCM (and therefore a VCS!). The URL for the Git website is "https://git-scm.com/" (and you can see how it has "SCM" directly in its domain!). </p>
             <h2>There are a lot of Version Control Systems: </h2>
-            <ul>
+            <ul class="blog-unordered-list">
                 <li>SVN</li>
                 <li>GIT</li>
                 <li>Mercurial</li>
                 <li>Bazaar</li>
             </ul>
+
             <h2>But, there are two main types of Version Control Systems:</h2>
-            <ol>
+            <ol class="blog-ordered-list">
                 <li>The Centralized Model - where, all Users connect to a central, master repository.</li>
                 <li>The Distributed Model - where, each User has the entire repository on their computer.</li>
             </ol>
             <h2>Git Terminologies / Keywords :</h2>
-            <ol>
+            <ol class="blog-ordered-list">
                 <li>
-                    <h3>Repository / Repo:</h3> <br>
+                    <h3>Repository / Repo:</h3>
                     <p>
                         A Repository is a directory(folder) which contains your project work, which are used to communicate with Git. Repositories can exist either locally on your computer or as a remote copy on another computer. A repository is made up of commits.
                     </p>
@@ -86,24 +94,49 @@
             </ol>
 
             <h2>Some of the Basic but Important Commands of Git:</h2>
-            <ol>
-                <li>git init: Running this command will create a new git repository from scratch. It is also used to initialize the existing project folder as a git repository. Example: git init</li>
-                <li>git add : This command will add the file or files that u specify to the staging area or the index. You can run this command as many times as you need. But, Remember before commiting the files it will keep in the staging area. Instead of
-                    listing all file names one by one, you can use "." after "git add" to select all files under the current directory. Example: git add filename or git add .</li>
-                <li>git status: If you want to see what you have in the Staging Area and ready for commit you can run the command. It will display paths of your tracked and untracked files.So, basically it will display the difference between "git add" and
-                    "git commit" command.But, Remember it will not show any commit records or information. Example: git status</li>
-                <li>git commit: This command will take everything that is in the index for the Staging area and put it into the local repository.The "-m" option, which stands for "message". Writing good commit messages is a skill. Example: git commit -m "Add
-                    files"
+            <ol class="blog-ordered-list">
+                <li>
+                    <h3>git init: </h3>
+                    <p>
+                        Running this command will create a new git repository from scratch. It is also used to initialize the existing project folder as a git repository. <br> Example:
+                        <code>git init</code>
+                    </p>
                 </li>
-                <li>git push: When you run this command it will take your local repository that you have created and then push it to the remote repository such as Github. Example: git push
-                    <remote>
-                        <branch>
+                <li>
+                    <h3>git add :</h3>
+                    <p> This command will add the file or files that u specify to the staging area or the index. You can run this command as many times as you need. But, Remember before commiting the files it will keep in the staging area. Instead of listing
+                        all file names one by one, you can use "." after "git add" to select all files under the current directory.
+                        <br> Example:<code>git add filename or git add .</code>
+                    </p>
                 </li>
-                <li>git pull: If you want to pull the latest changes from the remote repository to the local repository you can do it using git pull command. This command is mostly useful when you are working in a Team or an Organisation. Example: git pull
-                    <remote>
+                <li>
+                    <h3>git status: </h3>
+                    <p> you want to see what you have in the Staging Area and ready for commit you can run the command. It will display paths of your tracked and untracked files.So, basically it will display the difference between "git add" and "git commit"
+                        command.But, Remember it will not show any commit records or information.
+                        <br>Example:<code>git status</code></p>
                 </li>
-                <li>git clone: The git clone command download the existing remote repository on your local computer by specifying the URL of the remote repository.Basically, If you find a program or project that you like on GitHub you can clone it and that
-                    will download it in your machine. Example: git clone https://github.com/userName/repositoryName.git</li>
+                <li>
+                    <h3>git commit:</h3>
+                    <p> This command will take everything that is in the index for the Staging area and put it into the local repository.The "-m" option, which stands for "message". Writing good commit messages is a skill.
+                        <br> Example:<code> git commit -m "Add
+                    files"</code></p>
+                </li>
+                <li>
+                    <h3>git push:</h3>
+                    <p>When you run this command it will take your local repository that you have created and then push it to the remote repository such as Github.<br> Example:<code> git push remote branch </code>
+                    </p>
+                </li>
+                <li>
+                    <h3>git pull:</h3>
+                    <p>If you want to pull the latest changes from the remote repository to the local repository you can do it using git pull command. This command is mostly useful when you are working in a Team or an Organisation. <br> Example: <code>git pull remote</code></p>
+                </li>
+
+                <li>
+                    <h3>git clone: </h3>
+                    <p>The git clone command download the existing remote repository on your local computer by specifying the URL of the remote repository.Basically, If you find a program or project that you like on GitHub you can clone it and that will
+                        download it in your machine. <br> Example:
+                        <code> git clone https://github.com/userName/repositoryName.git </code></p>
+                </li>
             </ol>
 
 

@@ -84,6 +84,10 @@ hr {
     text-align: right;
 }
 
+.navbar a {
+    color: var(--button-text-color);
+}
+
 
 /* * header  */
 
@@ -118,6 +122,7 @@ hr {
 .off-white {
     background-color: var(--offwhite-color);
     padding: 2rem 0;
+    border-radius: 1rem;
 }
 
 

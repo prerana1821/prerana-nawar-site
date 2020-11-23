@@ -4,6 +4,13 @@
         padding: 0;
     }
     
+     :root {
+        --primary-color: #F50057;
+        --offwhite-color: #F3F4F6;
+        --button-text-color: #ffffff;
+        --header-text: #9CA3AF;
+    }
+    
     ul {
         list-style: none;
     }
@@ -169,4 +176,63 @@
         margin-top: 4rem;
         margin-bottom: 4rem;
         /* margin: auto;*/
+    }
+    /* ******************************************************** */
+    /* * Starting blogs1.html */
+    
+    .blog-heading {
+        text-align: center;
+        font-size: 4rem;
+        color: #1c3548;
+        line-height: 60px;
+        margin: 3rem 0;
+    }
+    
+    .projects-img-git {
+        max-width: 800px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        margin-bottom: 3rem;
+        border-radius: 1rem;
+    }
+    
+    .blog {
+        max-width: 70%;
+        margin: auto;
+    }
+    
+    .blog p {
+        line-height: 1.5rem;
+        font-size: large;
+        padding: 0.5rem 1rem;
+    }
+    
+    .blog h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    blockquote {
+        border-left: 10px solid var(--primary-color);
+        padding-left: 1rem;
+        font-size: 1.3rem;
+    }
+    
+    .blog .quotes p {
+        padding-bottom: 1rem;
+        font-size: 1.7rem;
+    }
+    
+    .blog .blog-unordered-list {
+        list-style: circle;
+        padding: 0.5rem 2rem;
+        font-size: large;
+    }
+    
+    .blog-ordered-list {
+        padding: 0.5rem 2rem;
+        font-size: large;
+        line-height: 1.5rem;
     }
