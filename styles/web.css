@@ -266,6 +266,7 @@ blockquote {
 .blog .quotes p {
     padding-bottom: 1rem;
     font-size: 1.7rem;
+    line-height: 2rem;
 }
 
 .blog .blog-unordered-list {
@@ -294,12 +295,14 @@ code {
 /** Media Query */
 
 @media screen and (min-width: 600px) {
+    /* * hero img  */
     .model-sm img {
         display: none;
     }
 }
 
 @media screen and (max-width: 600px) {
+    /* * blogs1 */
     .blog {
         max-width: 100%;
         margin: auto;
@@ -316,23 +319,6 @@ code {
         display: block;
         margin-top: 0;
         margin-bottom: 0;
-    }
-    .main-text {
-        padding: 0;
-    }
-    .model-1 {
-        margin: 4rem 0;
-        display: none;
-    }
-    .model-2 {
-        margin: 4rem 0;
-        /* display: none; */
-    }
-    .model img {
-        margin: auto;
-        max-width: 350px;
-        display: block;
-        float: left;
     }
     .about-me-text {
         padding: 0;
@@ -352,10 +338,28 @@ code {
     .about-me h3 {
         margin-top: 1rem;
     }
+    .main-text {
+        padding: 0;
+    }
+    .model-1 {
+        margin: 4rem 0;
+        display: none;
+    }
+    .model-2 {
+        margin: 4rem 0;
+        /* display: none; */
+    }
+    .model img {
+        margin: auto;
+        max-width: 350px;
+        display: block;
+        float: left;
+    }
     .blogs p {
         padding: 0 1rem;
     }
     .blog-heading {
+        font-size: 3.7rem;
         padding: 0 0.5rem;
     }
 }
