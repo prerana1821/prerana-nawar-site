@@ -246,6 +246,10 @@ footer p {
     margin: auto;
 }
 
+.blog a {
+    color: #4338CA;
+}
+
 .blog p {
     line-height: 1.5rem;
     font-size: large;
@@ -255,6 +259,11 @@ footer p {
 .blog h2 {
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+.blog h3 {
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
 }
 
 blockquote {
@@ -286,6 +295,33 @@ code {
     border-radius: 3px;
     padding: 0 3px;
     /* display: inline; */
+}
+
+
+/* ******************************************* */
+
+
+/* *Starting blog2 */
+
+.blog h1 {
+    font-size: 1.7rem;
+    font-weight: 100;
+}
+
+.blog2-img-2 {
+    max-width: 700px;
+    margin: 0.7rem 0;
+}
+
+.projects-img-dart {
+    max-width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 3rem;
+    border-radius: 1rem;
+    height: 350px;
 }
 
 
@@ -361,5 +397,12 @@ code {
     .blog-heading {
         font-size: 3.7rem;
         padding: 0 0.5rem;
+    }
+    .projects-img-dart {
+        height: 200px;
+    }
+    .blog2-img-2 {
+        max-width: 400px;
+        margin: 0.7rem 0;
     }
 }
