@@ -307,9 +307,6 @@ code {
 }
 
 @media screen and (max-width: 700px) {
-    /* body {
-    background-color: lightgreen;
-} */
     .hero-content {
         margin-top: 0;
         margin-bottom: 0;
@@ -321,23 +318,18 @@ code {
         margin-bottom: 0;
     }
     .main-text {
-        /* flex: 50%; */
-        /* margin: 4rem 0; */
         padding: 0;
     }
     .model-1 {
-        /* flex: 100%; */
         margin: 4rem 0;
         display: none;
     }
     .model-2 {
-        /* flex: 100%; */
         margin: 4rem 0;
         /* display: none; */
     }
     .model img {
         margin: auto;
-        /* width: 100%; */
         max-width: 350px;
         display: block;
         float: left;
@@ -359,5 +351,11 @@ code {
     }
     .about-me h3 {
         margin-top: 1rem;
+    }
+    .blogs p {
+        padding: 0 1rem;
+    }
+    .blog-heading {
+        padding: 0 1rem;
     }
 }
