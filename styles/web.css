@@ -405,4 +405,10 @@ code {
         max-width: 400px;
         margin: 0.7rem 0;
     }
+    .dart-ol {
+        padding: 0 1rem;
+    }
+    .nested-ul li {
+        margin-bottom: 0.7rem;
+    }
 }
