@@ -355,7 +355,7 @@ code {
     .blogs p {
         padding: 0 1rem;
     }
-    /* .blog-heading {
-        padding: 0 1rem;
-    } */
+    .blog-heading {
+        padding: 0 0.5rem;
+    }
 }
