@@ -335,7 +335,7 @@ code {
 
 /** Media Query */
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
     /* * hero img  */
     .model-sm img {
         display: none;
